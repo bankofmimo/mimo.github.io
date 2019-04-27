@@ -609,7 +609,7 @@ section.content {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
 
   .dropdown {
@@ -737,7 +737,7 @@ width:300px;
   }
 
 .image{
-height:520px;
+height:220px;
 }
 
 section.content {
