@@ -606,16 +606,7 @@ section.content {
 
 
 
-
-
-
-@media (max-width: 550px) {
-
-  @keyframes fadein {
-    0% { opacity: 0.5; }
-    100% { opacity:  1; }
-  }
-
+@media (max-width: 500px) {
 
   .dropdown {
     /* position: relative; */
@@ -631,34 +622,6 @@ section.content {
     min-width: 160px;
     z-index: 1;
   }
-
-
-	.footer-distributed{
-		padding: 30px;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	.footer-distributed .footer-left{
-		margin-bottom: 40px;
-	}
-
-	.footer-distributed form{
-		margin-top: 30px;
-	}
-
-	.footer-distributed form{
-		display: block;
-	}
-
-	.footer-distributed form button{
-		float: none;
-	}
 
   header a {
 text-align: center;
@@ -732,7 +695,7 @@ width:300px;
   }
 
   .line {
-  	font-size: 13px;
+  	font-size: 12px;
     padding: 1px;
   }
 
@@ -748,6 +711,33 @@ height:220px;
 section.content {
   margin: 38px;
 
+}
+
+.footer-distributed{
+  padding: 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-right{
+  float: none;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer-distributed .footer-left{
+  margin-bottom: 40px;
+}
+
+.footer-distributed form{
+  margin-top: 30px;
+}
+
+.footer-distributed form{
+  display: block;
+}
+
+.footer-distributed form button{
+  float: none;
 }
 
 }
