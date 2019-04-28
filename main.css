@@ -606,7 +606,7 @@ section.content {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   .dropdown {
     /* position: relative; */
@@ -624,7 +624,11 @@ section.content {
   }
 
   header a {
-text-align: center;
+/* text-align: center; */
+/* float:none; */
+margin-left:10px;
+display: block;
+
  }
 
   .dropdown {
@@ -654,15 +658,8 @@ text-align: center;
   }
 
   section.hero {
-    margin: 64px 0 0 0;
-    padding: 160px 48px 160px 48px;
-    background-image: url(hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-
-    padding-top: 130px;
-    padding-bottom: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
   }
 

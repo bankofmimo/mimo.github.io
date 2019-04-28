@@ -15,8 +15,8 @@ document.getElementById("output1").innerHTML = "Please enter valid value!";
 
 else{
 // document.getElementById("output1").innerHTML ="Require "+Math.round(value2 / value1)+" hours of work to earn back the money... ";
-document.getElementById("output2").innerHTML = Math.round(539.97 / value2)+" "+value1  
+document.getElementById("output2").innerHTML = Math.round(539.97 / value2)+" "+value1
 document.getElementById("output2-1").innerHTML =Math.round(150.59 / value2)+" "+value1
 document.getElementById("output2-2").innerHTML =Math.round(269.00 / value2)+" "+value1
-
+document.getElementById("output2-3").innerHTML =Math.round(214.99 / value2)+" "+value1
 }}
