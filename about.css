@@ -9,7 +9,6 @@ body {
 	line-height: 1.5;
 
 	background-color: #ffffff;
-	color: #052837;
 
   padding: 0;
    margin: 0;
@@ -118,6 +117,34 @@ header a {
 	width: 50%;
 }
 
+
+section{
+text-align: center;
+margin:auto;
+margin-top:60px;
+width:700px;
+}
+
+
+
+.title{
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.p{
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.logoup{
+margin-top:50px;
+margin-bottom:30px;
+}
 
 .footer-distributed{
 	background-color: #4EC3E0;
@@ -254,57 +281,6 @@ top:100px;
 	float: right;
 }
 
-/* @media (max-width: 1000px) {
-
-	.footer-distributed {
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-distributed form input,
-	.footer-distributed form textarea{
-		width: 250px;
-	}
-
-	.footer-distributed form button{
-		padding: 10px 35px;
-	}
-
-}
-
-@media (max-width: 800px) {
-
-	.footer-distributed{
-		padding: 30px;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	.footer-distributed .footer-left{
-		margin-bottom: 40px;
-	}
-
-	.footer-distributed form{
-		margin-top: 30px;
-	}
-
-	.footer-distributed form{
-		display: block;
-	}
-
-	.footer-distributed form button{
-		float: none;
-	}
-} */
-
 @media (max-width: 1000px) {
 
 	.footer-distributed {
@@ -324,44 +300,9 @@ top:100px;
 		padding: 10px 35px;
 	}
 
-  .dropdown {
-    text-align: left;
-    font-size: 14px;
-  }
-
-  header {
-    padding: 0 0px 0 0px;
-    height: 64px;
-
-  }
-
-
-
-.line {
-  letter-spacing: .5px;
-  padding: 3px;
-}
-
 }
 
 @media (max-width: 800px) {
-
-
-  .dropdown {
-    /* position: relative; */
-    display: inline-block;
-    text-align: left;
-    font-size: 12px;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    z-index: 1;
-  }
-
 
 	.footer-distributed{
 		padding: 30px;
@@ -389,98 +330,9 @@ top:100px;
 	.footer-distributed form button{
 		float: none;
 	}
-
-  .dropdown {
-    text-align: left;
-    font-size: 14px;
-  }
-  header {
-    padding: 0 0px 0 0px;
-    height: 64px;
-
-  }
-
-  h2 {
-    font-size: 33px;
-  }
-
-  h3 {
-    font-size: 27px;
-  }
-
-  body {
-  	font-size: 14px;
-  }
-
-  p {
-    margin: 10px 0 10px 0;
-  }
-
-  section.hero {
-    margin: 64px 0 0 0;
-    padding: 160px 48px 160px 48px;
-    background-image: url(hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-
-    padding-top: 130px;
-    padding-bottom: 200px;
-
-  }
-
-  section.hero h2, section.hero p {
-    max-width: 450px;
-    color:white;
-  }
-
-  section.hero p{
-    width:340px;
-    margin-bottom: 30px;
-  }
-
-  section.hero h2{
-  width:340px;
-
-  }
-
-  div.content h3{
-width:300px;
-
-  }
-
-  div.content p{
-  width:450px;
-  }
-
-  .space{
-  margin-top:50px;
-  }
-
-  section.content div.content {
-    /* flex: 0 0 500px; */
-    margin: 0 0 0 20px;
-  }
-
-.image{
-height:220px;
 }
 
-section.content {
-  margin: 38px;
-
-}
-
-.line {
-	letter-spacing: .5px;
-  padding: 3px;
-}
-
-}
-
-
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   .dropdown {
     /* position: relative; */
@@ -498,7 +350,10 @@ section.content {
   }
 
   header a {
-text-align: center;
+/* text-align: center; */
+/* float:none; */
+margin-left:10px;
+display: block;
  }
 
   .dropdown {
@@ -511,8 +366,74 @@ text-align: center;
 
   }
 
+  h2 {
+    font-size: 28px;
+  }
 
+  h3 {
+    font-size: 22px;
+  }
 
+  body {
+  	font-size: 14px;
+  }
+
+  p {
+    margin: 10px 0 10px 0;
+  }
+
+  section.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+  }
+
+  section.hero h2, section.hero p {
+    max-width: 450px;
+    color:white;
+  }
+
+  section.hero p{
+    width:300px;
+    margin-bottom: 30px;
+  }
+
+  section.hero h2{
+  width:300px;
+
+  }
+
+  div.content h3{
+width:300px;
+
+  }
+
+  div.content p{
+  width:300px;
+  }
+
+  .space{
+  margin-top:50px;
+  }
+
+  .line {
+  	font-size: 12px;
+    padding: 1px;
+  }
+
+  section.content div.content {
+    /* flex: 0 0 500px; */
+    margin: 0 0 0 20px;
+  }
+
+.image{
+height:220px;
+}
+
+section.content {
+  margin: 38px;
+
+}
 
 .footer-distributed{
   padding: 30px;
